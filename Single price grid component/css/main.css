@@ -1,0 +1,221 @@
+html {
+	  box-sizing: border-box;
+
+}
+	
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	}
+
+/*- Mobile: 375px*/
+
+
+body {
+	margin: 70px 30px;
+	background-color: hsl(204, 43%, 93%);
+	font-family: 'Karla', sans-serif;
+}
+
+
+.card1 {
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+	padding: 30px;
+}
+
+	.card1 h2 {
+		color: hsl(179, 62%, 43%);
+		font-size: 20px;
+		margin: 0;
+		font-weight: 700;
+	}
+
+	.card1 h3 {
+		color: hsl(71, 73%, 54%);
+		font-size: 15px;
+		margin: 30px 0 0 0;
+		font-weight: 700;
+		line-height: 22px;
+	}
+
+	.card1 p {
+		color: hsl(218, 22%, 67%);
+		font-size: 12px;
+		margin: 25px 0 0 0;
+		font-weight: 400;
+		line-height: 27px;
+
+	}
+
+.card2 {
+	background-color: hsl(179, 62%, 43%);
+	padding: 25px 30px ;
+	color: #fff;
+}
+
+	.card2 h2 {
+		font-size: 20px;
+		margin: 0;
+		font-weight: 700;
+	}
+
+	.card2 h3 {
+		font-size: 30px;
+		margin: 30px 0 0 0;
+		font-weight: 700;
+		line-height: 22px;
+		display: flex;
+	}
+
+		.card2 h3 span {
+			font-size: 15px;
+			margin-left: 5px;
+			color: hsl(204, 43%, 93%);
+			font-weight: 400;
+			letter-spacing: -1px;
+		}
+
+	.card2 .text {
+		font-size: 12px;
+		margin: 20px 0 30px 0;
+		font-weight: 400;
+	}
+
+	.card2 .box {
+		background-color: rgb(191, 223, 50);
+		text-align: center;
+		border-radius: 10px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+		.card2 .box p {
+			font-size: 15px;
+		}
+
+.card3 {
+	background-color: rgb(74, 190, 189);
+	padding: 25px 30px ;
+	color: #fff;
+	border-radius: 0 0 10px 10px;
+}
+
+	.card3 h2 {
+		font-size: 20px;
+		margin: 0;
+		font-weight: 700;
+	}
+
+	.card3 ul {
+		list-style: none;
+		margin: 20px 0 25px 0;
+		padding: 0;
+	}
+
+	.card3 li {
+		font-size: 15px;
+		color: hsl(204, 43%, 93%);
+		font-weight: 400;
+	}
+
+/*- Desktop: 1440px*/
+
+@media (min-width: 1350px) {
+
+	body {
+		margin: 160px 400px;
+	}
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		border-radius: 10px;
+		box-shadow: 5px 5px 20px 15px rgb(215,229,240);
+		overflow: hidden;
+
+	}
+
+/*	main {
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		
+
+	}*/
+
+	.card1 {
+		padding: 45px 40px;
+		
+	}
+
+		.card1 h2{
+			font-size: 25px;
+		}
+
+		.card1 h3 {
+			margin-top: 25px;
+			font-size: 19px;
+		}
+
+		.card1 p {
+			margin-top: 15px;
+			line-height: 22px;
+			font-size: 17px;
+		}
+
+	.card2{
+		flex: 1 1 50%;
+		padding: 40px;
+
+	}
+
+		.card2 h2 {
+			font-size: 18px;
+		}
+
+		.card2 h3 {
+			margin-top: 20px;
+			font-size: 35px;
+		}
+
+		.card2 h3 span {
+			font-size: 17px;
+			margin-left: 15px;
+		}
+
+		.card2 .text {
+			font-size: 15px;
+			margin-top: 15px;
+		}
+
+		.card2 .box p {
+			font-size: 18px;
+		}
+
+	.card3{
+		border-radius: 0 0 10px 0;
+		flex: 1 1 50%;
+		padding: 40px;
+	}
+
+		.card3 ul {
+			list-style: none;
+			margin-bottom: 20px;
+			padding: 0;
+		}
+
+			.card3 li {
+				margin-bottom: 2px;
+			}
+
+
+
+
+
+
+
+
+}
